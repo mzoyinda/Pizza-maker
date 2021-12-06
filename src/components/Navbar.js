@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="navContainer">
       <div className="navContent">
-        <img src={Logo} alt="pizzalogo" height="40px" />
+        <a href="/"><img src={Logo} alt="pizzalogo" height="40px" /></a>
         <div className="brand">
           Pizza Maker
         </div>
