@@ -9,10 +9,11 @@ export default function Checkout({ ingredients }) {
 
   const imageoperation=()=>{
     setSuccess(true);
-    localStorage.setItem("image",JSON.stringify(Pizzaman));
+    localStorage.setItem("image", JSON.stringify(Pizzaman));
+    console.log(image)
   }
   useEffect(()=>{
-    const image=localStorage.getItem("image");
+    const image = localStorage.getItem("image");
     if (image) {
       setimage(JSON.parse(image));
     }
