@@ -7,12 +7,12 @@ import Mushroom from "../assets/Mushroom.png";
 import Basil from "../assets/Basil.png";
 
 
+
 import Tomato from "../assets/Tomato.png";
 import { motion } from "framer-motion";
 import { useHistory } from "react-router-dom";
 
 export default function Customize({ ingredients, setIngredients }) {
-
   let history = useHistory();
 
   let newIngredients = JSON.parse(JSON.stringify(ingredients));
